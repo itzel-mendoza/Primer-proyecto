@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Piedra, Papel y Tijera</title>
+        <script>
+            function aleatorio(min, max) {
+            return Math.floor( Math.random() * ( max - min + 1 ) + min );}
+         
+           function eleccion(jugada) {}
+
+         let jugador = 0 
+         let npc = aleatorio(1, 3)
+         alert("¡Vamos a Jugar!¿Listo?")
+         prompt("Piedra es uno 1, tijera es 2 y papel 3. Elige uno.");
+          alert("esta maquina dice " + npc)
+         //piedra: 1, papel: 2, tijera:3
+          if (jugador == 1 && npc == 1, jugador == 2 && npc == 2, jugador == 3 && npc == 3) { alert("Empate") }
+          else if (jugador == 1 && npc == 2, jugador == 1 && npc == 3, jugador == 2 && npc == 1, jugador == 3 && npc == 2) { alert("¡Ganaste!") }
+      </script>
+    </head>
+    <body>
+     <h1>Piedra, papel o tijera</h1>
+     Terminó el juego...¿o no?
+    </body>
+</html>
